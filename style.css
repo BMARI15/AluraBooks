@@ -111,12 +111,14 @@ body{
             background-color: var(--branco);
             text-align: center;
             text-transform: uppercase;
-            font-size: 18px;
+            font-size: 25px;
             font-weight: 700;
             padding: 1em 0 0.5em 0;
           }
           .swiper-slide img{
             width: 60%;
+            padding: 10px 55px;
+            height: 350px;
           }
 
           .card-descricao{
@@ -138,5 +140,13 @@ body{
           .card{
             background:rgb(7, 163, 163) ;
             border-radius: 8px;
+            padding: 2em;
+            margin: 2em;
+
             
+          }
+          .TITULO-MAIS-VENDIDOS{
+            color: var(--laranja);
+            text-align: center;
+            font-size: 25px;
           }
