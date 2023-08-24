@@ -150,3 +150,7 @@ body{
             text-align: center;
             font-size: 25px;
           }
+
+          .botoes-item{
+            margin: 5px 10px;
+          }
