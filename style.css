@@ -63,7 +63,7 @@ body{
 
           .lista-menu__titulo{
             color: var(--laranja);
-            font-size: 700;
+            font-size: 25px;
           }
 
           .lista-menu__link{
@@ -71,6 +71,7 @@ body{
             -webkit-background-clip: text;
             background-clip: text;
             text-transform: uppercase;
+            
           }
           .container-botao{
             display: none;
@@ -154,3 +155,39 @@ body{
           .botoes-item{
             margin: 5px 10px;
           }
+
+          .botoes-ancora{
+            background-color: var(--laranja);
+            padding: 1px 1px;
+            color: var(--branco);
+            font-size: 100%;
+            text-decoration: none;
+            margin: 1%;
+          }
+
+          .descricao-imagem2{
+            width: 20%;
+          }
+
+          .descricao1{
+            text-align: center;
+            padding: 2em 2em;
+          }
+
+          .descricao2{
+            text-align: center;
+
+          }
+          
+          .topicos{
+            background: rgb(7, 163, 163) ;
+            text-align: center;
+          
+          }
+
+          .titulos-topicos{
+            color:#EB9B00;
+            font-size: 500;
+            font-size: 20px;
+          }
+          
