@@ -178,16 +178,49 @@ body{
             text-align: center;
 
           }
+          .estrelinha{
+            height: 20%;
+          }
+          .estrelinha-tamanho{
+            width: 10%;
+          }
           
           .topicos{
             background: rgb(7, 163, 163) ;
             text-align: center;
+           padding: 1em;
+           border-radius: 10px;
+           margin: 2em;
           
           }
 
           .titulos-topicos{
             color:#EB9B00;
-            font-size: 500;
-            font-size: 20px;
+            font-size: 50;
+            font-size: 25px;
+            margin: 1em;
+          }
+
+          .topicos-lista{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
           }
           
+          .topicos-link{
+            color:black;
+            padding: 1em;
+            background-color: var(--laranja);
+            font-size: 16px;
+            margin: 10px;
+            border-radius: 15px;
+          }
+
+          .rodape{
+            background:rgb(7, 163, 163) ;
+            text-align: center;
+            border-radius: 8px;
+            padding: 2em;
+            margin: 2em;
+
+          }
