@@ -2,7 +2,7 @@
   
     font-size: 20px;
     --cor-de-fundo:#EBECEE;
-    --branco: #FFFFFF;
+    --branco:var(--branco);
     --laranja: #EB9B00;
     --azul-degrade: linear-gradient(97,54deg, rgb(7, 163, 163) 35,49%, rgb(9, 114, 114) 165,37%);
     --fonte-principal: "Poppins";
@@ -58,7 +58,7 @@ body{
           .lista-menu__titulo,
           .lista-menu__item {
             padding: 1em;
-            background-color: var(--branco);
+            color: black;
           }
 
           .lista-menu__titulo{
@@ -96,7 +96,7 @@ body{
 
           .banner-pesquisa{
             background-color: transparent;
-            border: 1px solid var(--branco);
+            border: 1px solid black;
             color: black;
             border-radius: 24px;
             padding: 1em;
@@ -108,7 +108,7 @@ body{
           }
 
           .carrossel__titulo{
-            color: var(--laranja);
+            color: black;
             background-color: var(--branco);
             text-align: center;
             text-transform: uppercase;
@@ -143,11 +143,26 @@ body{
             border-radius: 8px;
             padding: 2em;
             margin: 2em;
-
+           
             
           }
+
+          .descricao-titulo1{
+          font-size: 150%;
+          text-align: center;
+          }
+          .descricao-texto1{
+            font-size: 110%;
+            text-align: center;
+          }
+          .descricao-texto2{
+            font-size: 90%;
+          }
+            
+           
+
           .TITULO-MAIS-VENDIDOS{
-            color: var(--laranja);
+            color: black;
             text-align: center;
             font-size: 25px;
           }
@@ -157,7 +172,7 @@ body{
           }
 
           .botoes-ancora{
-            background-color: var(--laranja);
+            background-color: rgb(8, 184, 184);
             padding: 1px 1px;
             color: var(--branco);
             font-size: 100%;
@@ -195,7 +210,7 @@ body{
           }
 
           .titulos-topicos{
-            color:#EB9B00;
+            color:black;
             font-size: 50;
             font-size: 25px;
             margin: 1em;
@@ -208,9 +223,10 @@ body{
           }
           
           .topicos-link{
+            
             color:black;
             padding: 1em;
-            background-color: var(--laranja);
+            background-color:rgb(8, 184, 184)  ;
             font-size: 16px;
             margin: 10px;
             border-radius: 15px;
@@ -223,4 +239,31 @@ body{
             padding: 2em;
             margin: 2em;
 
+          }
+
+          .contato-titulo{
+            font-size: 120%;
+          }
+
+          .contato-texto{
+            font-size: 90%;
+          }
+         
+          .descricao-texto{
+          font-size: 120%;
+          }
+
+
+          .contato-email{
+            padding: 5px;
+            border-radius: 25px;
+            border: 2px solid var(--branco);
+            width: 30%;
+            text-align: center;
+          }
+
+          .contato-email::placeholder{
+          font-family:'Courier New', Courier, monospace;
+          color: black;
+          background: url(./img/email.svg) no-repeat;
           }
